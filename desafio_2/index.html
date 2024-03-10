@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multipedidos</title>
+    <script
+      src="https://kit.fontawesome.com/ee6badfc3b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logotipo">
+        <img class="header__logotipo--image" src="./assets/logotipo.png" />
+      </div>
+      <div class="header__icons">
+        <img class="header__icons--menu" src="assets/menu_hamburger.png" />
+        <img class="header__icons--menu" src="assets/user.png" />
+      </div>
+    </header>
+
+    <aside class="sidebar">
+      <div class="sidebar__establishment">
+        <img class="sidebar__establishment--image" src="./assets/avatar.png" />
+        <div class="sidebar__establishment--info">
+          <h4>Inácio</h4>
+          <p>Pizzaria Pedaço</p>
+          <p>Codigo PI-5555</p>
+        </div>
+      </div>
+      <ul class="sidebar__links">
+        <li>
+          <img class="sidebar__links--icon" src="assets/help.png" /><a>Ajuda</a>
+        </li>
+        <li>
+          <img class="sidebar__links--icon" src="assets/menu.png" /><a href=""
+            >Cardápio</a
+          >
+        </li>
+        <li>
+          <img class="sidebar__links--icon" src="assets/order.png" /><a href=""
+            >Pedidos</a
+          >
+        </li>
+        <li class="active">
+          <img class="sidebar__links--icon" src="assets/motoboy.png" /><a
+            >Motoboys</a
+          >
+        </li>
+        <li>
+          <img class="sidebar__links--icon" src="assets/report.png" /><a
+            >Relatórios</a
+          >
+        </li>
+      </ul>
+    </aside>
+
+    <main>
+      <section class="section">
+        <div class="section__header">
+          <div class="section__header--content">
+            <img
+              class="section__header-icon"
+              src="assets/info.png"
+              alt="info icon"
+            />
+            <img
+              class="section__header-icon"
+              src="assets/motoboy_black.png"
+              alt="Motoboy icon"
+            />
+            <h3 class="section__header-title">Gestão de Motoboys</h3>
+          </div>
+          <p class="section__description">
+            Tela para gerenciamento dos motoboys cadastrados
+          </p>
+        </div>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Placa</th>
+              <th>Telefone</th>
+              <th>E-mail</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+
+          <tr>
+            <td>Antônio Reis</td>
+            <td>MEO-4858</td>
+            <td>(41)9999-9999</td>
+            <td>antonio_reis@gmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Bruna Alves</td>
+            <td>LXV-2808</td>
+            <td>(41)9999-9999</td>
+            <td>bruna_alves@gmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Caio Elias</td>
+            <td>LXI-2790</td>
+            <td>(41)9999-9999</td>
+            <td>caio_elias@gmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Cristiano Mendes</td>
+            <td>LXX-2561</td>
+            <td>(41)9999-9999</td>
+            <td>cristiano_mendes@gmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Raissa Silva</td>
+            <td>LZM-9662</td>
+            <td>(41)9999-9999</td>
+            <td>raissa_silva@hotmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Robson Moises</td>
+            <td>MAA-7431</td>
+            <td>(41)9999-9999</td>
+            <td>robson_moises@hotmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>Thiago Santos</td>
+            <td>MIF-7927</td>
+            <td>(41)9999-9999</td>
+            <td>thiago.santos@gmail.com</td>
+            <td>
+              <button class="view">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+              <button class="edit">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </button>
+              <button class="delete">
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
